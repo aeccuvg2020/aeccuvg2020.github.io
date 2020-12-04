@@ -1,0 +1,19 @@
+.portfolioTitle{
+    margin-top: 3rem;
+}
+
+.portfolioContainer{
+    margin-top: 2rem;
+}
+
+section {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: transparent;
+}
+ 
+section {
+    display: block;
+}
+ 

@@ -9,7 +9,7 @@ export default class Header extends Component {
             <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
             <a className="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
             <ul id="nav" className="nav justify-content-center">
-              <li className="current"><a href="#home">Inicio</a></li>
+              <li><a href="#home">Inicio</a></li>
               <li><a href="#about">Acerca de nosotros</a></li>
               <li><a href="#team">Equipo</a></li>
               <li><a href="#portfolio">Actividades</a></li>
