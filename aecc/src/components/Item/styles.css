@@ -1,55 +1,59 @@
-.example {
-    width: 500px;
-    display: flex;
-    margin: 0 auto;
-    font-family: Arial;
-}
-  
-.example__guide {
-    flex: 1;
-    margin: auto;
-    padding-right: 20px;
-    line-height: 1.3;
-}
-  
-.example__observer {
-    width: 200px;
-    height: 200px;
-    margin: 0 auto;
-    display: flex;
+.container {
     position: relative;
-    border: solid 1px #C5CAE9;
-    border-radius: 4px;
-    transition: border .2s ease-in-out;
+    width: 50%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
   
-.example__observer:hover {
-    border-color: #3F51B5;
-    background-color: #333;
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
 }
   
-.example__label {
-    width: 125px;
-    margin: auto;
-    white-space: nowrap;
-}
-  
-.example__child {
-    width: 100px;
-    height: 50px;
-    padding-top: 15px;
-    box-sizing: border-box;
+.overlay {
     position: absolute;
-    top: 25px;
-    left: 50px;
-    background-color: #C5CAE9;
-    /*transition: background .2s ease-in-out;*/
-    border-radius: 4px;
-    text-align: center
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #008CBA;
+    overflow: hidden;
+    /*width: 100%;
+    height: 0;*/
+    transition: .5s ease;
 }
   
-.example__child:hover {
-    background-color: #3F51B5;
+.container:hover .overlay {
+    height: 100%;
+}
+  
+.text {
+    white-space: nowrap; 
     color: white;
+    font-size: small;
+    margin-block-end: 1em;
+    margin-block-start: 1em;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
 }
-  
+
+.title {
+    white-space: nowrap; 
+    color: white;
+    font-size: x-large;
+    font-weight: bold;
+    margin-block-end: 1em;
+    margin-block-start: 1em;
+    position: absolute;
+    top: 30%;
+    
+    left: 50%;
+    overflow: auto;
+    
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}

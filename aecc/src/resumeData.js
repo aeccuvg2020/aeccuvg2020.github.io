@@ -15,7 +15,7 @@ let resumeData = {
         {
             "name": "Concurso Sudadero",
             "description": "Concurso de diseño de una sudadera relacionada con el departamento de Computación.",
-            "imgurl": "images/activities/Diseño.jpg",
+            "imgurl": "images/activities/Disenio.jpg",
             "alt": "Afiche Concurso",
         },
         {
