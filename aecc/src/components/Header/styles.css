@@ -124,6 +124,7 @@ nav {
    font: 12px 'opensans-bold', sans-serif;
    width: 100%;
    text-transform: uppercase;
+   font-weight: bold;
    letter-spacing: 2.5px;
    margin: 0 auto;
    z-index: 100;

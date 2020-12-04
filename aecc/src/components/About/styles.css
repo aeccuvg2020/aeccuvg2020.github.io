@@ -1,0 +1,29 @@
+.aboutUs-text {
+    padding-right: 6rem;
+    padding-left: 6rem;
+}
+
+p {
+    font-size: larger;
+}
+
+.aboutUsContainer {
+    margin-top: 5rem;
+    background-color: #ffffff; 
+}
+
+.mision-vision {
+    padding-top: 3rem;
+    background-color: #1D2F40;
+    color: #ffffff;
+}
+
+.mision-container, .vision-container {
+    background-color: #1D2F40;
+    padding-bottom: 1.5rem;
+    color: #ffffff;
+}
+
+.text-center {
+    padding-bottom: 1.5rem;
+}
