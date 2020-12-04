@@ -2,7 +2,7 @@
 /* a. General Styles
 /* ------------------------------------------------------------------ */
 
-/*body { background: #0f0f0f; }*/
+body { background: #0f0f0f; }
 
 /* ------------------------------------------------------------------ */
 /* b. Header Styles
@@ -13,11 +13,11 @@ header {
    height: 50px;
    min-height: 50px;
    width: 100%;
-   background: #161415;
-   /* background-size: cover !important;
-	-webkit-background-size: cover !important;*/
+   background: #161415 !important;
    text-align: center;
    overflow: hidden;
+   /* background-size: cover !important;
+	-webkit-background-size: cover !important;*/
 }
 
 /* vertically center banner section */
@@ -98,6 +98,18 @@ header .scrolldown a {
    transition: all .3s ease-in-out;
 }
 header .scrolldown a:hover { color: #448aff; }
+
+
+header, nav {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   background: transparent;
+}
+
+nav {
+   display: block;
+}
 
 /* primary navigation
 --------------------------------------------------------------------- */

@@ -1,20 +1,4 @@
-.CarouselDiv{
-    height: 375px;
-    width: 500px;
-    align-self: center;
-    align-content: center;
-    margin-left: 35px;
-}
-
-.carCaption{
-    color: white;
-}
-
-.carCaption:hover{
-    color: rgb(188, 196, 206);
-}
-
-.carouselBackground{
+.carouselBackground {
     height: 100vh;
     width: 100%;
     position: absolute !important;
@@ -22,4 +6,15 @@
 
 .carouselBackgroundItem{
     height: 100%;
+}
+
+section {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: transparent;
+}
+ 
+section {
+    display: block;
 }

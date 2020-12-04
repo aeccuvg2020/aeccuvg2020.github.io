@@ -7,8 +7,8 @@ export default class Home extends Component {
     return (
       <section>
           <div className="carouselBackground"> 
-                <Carousel interval={600} keyboard={false} pauseOnHover={true}>
-                    <Carousel.Item >
+                <Carousel interval={2000} keyboard={false} slide={false} fade={false}>
+                    <Carousel.Item className="carouselBackgroundItem">
                         <img
                             className="d-block w-100"
                             src={"images/home/fondo1.JPG"}
@@ -34,13 +34,6 @@ export default class Home extends Component {
                             className="d-block w-100"
                             src={"images/home/fondo4.JPG"}
                             alt="Fourth slide"
-                        />
-                    </Carousel.Item>
-                    <Carousel.Item  >
-                        <img 
-                            className="d-block w-100"
-                            src={"images/home/fondo5.JPG"}
-                            alt="Fifth slide"
                         />
                     </Carousel.Item>
                 </Carousel>
