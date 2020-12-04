@@ -13,7 +13,7 @@ header {
    height: 50px;
    min-height: 50px;
    width: 100%;
-   background: #161415 !important;
+   background: #1D2F40 !important;
    text-align: center;
    overflow: hidden;
    /* background-size: cover !important;
@@ -75,7 +75,7 @@ header .social li {
    padding: 0;
 }
 header .social li a { color: #fff; }
-header .social li a:hover { color: #448aff; }
+header .social li a:hover { color: #6BCCF2; }
 
 /* scrolldown link */
 header .scrolldown a {
@@ -97,8 +97,7 @@ header .scrolldown a {
    -o-transition: all .3s ease-in-out;
    transition: all .3s ease-in-out;
 }
-header .scrolldown a:hover { color: #448aff; }
-
+header .scrolldown a:hover { color: #6BCCF2; }
 
 header, nav {
    margin: 0;
@@ -132,7 +131,10 @@ nav {
    left: 0;
    top: 0;
 }
-.opaque { background-color: #333; }
+
+.opaque { 
+   background-color: #1D2F40; 
+}
 
 /* hide toggle button */
 #nav-wrap > a.mobile-btn { display: none; }
@@ -140,10 +142,10 @@ nav {
 ul#nav {
    min-height: 48px;
    width: auto;
-
    /* center align the menu */
    text-align: center;
 }
+
 ul#nav li {
    position: relative;
    list-style: none;
@@ -171,4 +173,4 @@ ul#nav li a {
 }
 
 ul#nav li a:active { background-color: transparent !important; }
-ul#nav li.current a { color: #448aff; }
+ul#nav li.current a { color: #6BCCF2; }

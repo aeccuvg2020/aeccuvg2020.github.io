@@ -4,7 +4,7 @@ import './styles.css';
 export default class Team extends Component {
   render() {
     return (
-      <section>    
+      <section id="team">    
         <div className="d-flex flex-column justify-content-center" name="team">
         <div className="d-flex flex-column teamTitle">
             <h1 className = "d-flex justify-content-center">Nuestro Equipo</h1>

@@ -5,7 +5,7 @@ import { Carousel } from 'react-bootstrap';
 export default class Home extends Component {
   render() {
     return (
-      <section>
+      <section id="home">
           <div className="carouselBackground"> 
                 <Carousel interval={1500} keyboard={false} slide={false} fade={false}>
                     <Carousel.Item className="carouselBackgroundItem">
