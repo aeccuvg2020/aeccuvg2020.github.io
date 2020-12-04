@@ -8,17 +8,19 @@
 
 .lblName {
     margin-top: 1rem;
-    margin-bottom: 1rem;
+    /*margin-bottom: 1rem;*/
     font-size: large;
     font-weight: bold;
 }
 
-.socialMedia-icons {
-    color: black;
-}
-
-.socialMedia-icons:hover {
-    color: #008f2e;
+.lbl {
+    /*
+    font-size: large;
+    font-weight: bold;
+    margin-top: 0.05rem;
+    */
+    font-weight: 900;
+    margin-bottom: 1rem;
 }
 
 .left {

@@ -7,7 +7,7 @@ export default class Home extends Component {
     return (
       <section>
           <div className="carouselBackground"> 
-                <Carousel interval={2000} keyboard={false} slide={false} fade={false}>
+                <Carousel interval={1500} keyboard={false} slide={false} fade={false}>
                     <Carousel.Item className="carouselBackgroundItem">
                         <img
                             className="d-block w-100"
