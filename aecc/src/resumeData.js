@@ -3,13 +3,13 @@ let resumeData = {
         {
             "name": "Presentación de la Asociación",
             "description": "Realizado en el curso de Introducción a CCTI con el fin de dar a conocer nuestros objetivos, así como, aceptar sugerencias y opiniones de los estudiantes.",
-            "imgurl": "images/activities/Becas.png",
+            "imgurl": "images/activities/Somos.jpg",
             "alt": "Presentación",
         },
         {
             "name": "Feria Día del Cariño",
             "description": "Venta de rosas con mensaje.",
-            "imgurl": "images/activities/Becas.png",
+            "imgurl": "images/activities/Feria.jpg",
             "alt": "Afiche Rosas",
         },
         {
@@ -50,7 +50,7 @@ let resumeData = {
         },
         {
             "name": "Programatón",
-            "description": "Competencia de una serie de retos de análisis y progrmación de POO.",
+            "description": "Competencia de una serie de retos de análisis y programación de POO.",
             "imgurl": "images/activities/Programaton.png",
             "alt": "Afiche Programaton",
         },
