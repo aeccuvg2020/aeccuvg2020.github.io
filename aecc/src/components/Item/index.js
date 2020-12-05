@@ -1,5 +1,4 @@
-import React, { Component } from 'react';
-import ReactHoverObserver from 'react-hover-observer';
+import React from 'react';
 import './styles.css';
 
 const Item = ({ resumeData }) => (

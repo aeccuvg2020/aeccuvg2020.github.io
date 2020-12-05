@@ -4,6 +4,7 @@ import Carousel from './components/Carousel';
 import Team from './components/Team';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
+import Footer from './components/Footer';
 
 import resumeData from './resumeData';
 class App extends Component {
@@ -15,6 +16,7 @@ class App extends Component {
         <About />
         <Team/>
         <Portfolio resumeData={resumeData}/>
+        <Footer />
       </div>
     );
   }
