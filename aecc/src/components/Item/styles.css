@@ -44,3 +44,45 @@
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
 }
+
+@media (min-width: 560px) and (max-width: 1200px) {
+  
+    /* CSS */
+
+    .title {
+        color: white;
+        font-size: small;
+        font-weight: bold;
+        position: absolute;
+        top: 25%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+    }
+
+    .text {
+        color: white;
+        font-size: x-small;
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+    }
+    
+}
+
+@media (max-width: 400px) {
+  
+    /* CSS */
+    .title {
+        color: white;
+        font-size: large;
+        font-weight: bold;
+        position: absolute;
+        top: 25%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+    }
+}

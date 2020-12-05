@@ -17,20 +17,24 @@ export default class Portfolio extends Component {
                                 <Item resumeData={resumeData.activities[0]}/>
                                 <Item resumeData={resumeData.activities[1]}/>
                                 <Item resumeData={resumeData.activities[2]}/>
-                                <Item resumeData={resumeData.activities[3]}/>
                             </div>
                         </div>
                         <div className="container-fluid">
                             <div className="row d-flex justify-content-center flex-wrap">
+                                <Item resumeData={resumeData.activities[3]}/>
                                 <Item resumeData={resumeData.activities[4]}/>
                                 <Item resumeData={resumeData.activities[5]}/>
-                                <Item resumeData={resumeData.activities[6]}/>
-                                <Item resumeData={resumeData.activities[7]}/>
                             </div>
                         </div>
                         <div className="container-fluid">
                             <div className="row d-flex justify-content-center flex-wrap">
+                                <Item resumeData={resumeData.activities[6]}/>
+                                <Item resumeData={resumeData.activities[7]}/>
                                 <Item resumeData={resumeData.activities[8]}/>
+                            </div>
+                        </div>
+                        <div className="container-fluid">
+                            <div className="row d-flex justify-content-center flex-wrap">
                                 <Item resumeData={resumeData.activities[9]}/>
                                 <Item resumeData={resumeData.activities[10]}/>
                             </div>

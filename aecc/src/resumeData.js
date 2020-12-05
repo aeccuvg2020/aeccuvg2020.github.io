@@ -2,7 +2,7 @@ let resumeData = {
     "activities": [
         {
             "name": "Presentación de la Asociación",
-            "description": "Realizado en el curso de Introducción a CCTI con el fin de dar a conocer nuestros objetivos, así como, aceptar sugerencias y opiniones de los estudiantes.",
+            "description": "Realizado en el curso de Introducción a CCTI con el fin de conocer las necesidades de los estudiantes.",
             "imgurl": "images/activities/Somos.jpg",
             "alt": "Presentación",
         },
